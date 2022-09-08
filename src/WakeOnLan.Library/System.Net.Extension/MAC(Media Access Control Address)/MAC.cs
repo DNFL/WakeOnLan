@@ -201,6 +201,6 @@ namespace System.Net.Extension
 		/// </summary>
 		/// <returns>string 型 MAC 地址 (FF-FF-FF-FF-FF-FF)</returns>
 		public override string ToString()
-			=> $"{_bytes[0]: X2} - {_bytes[1]: X2} - {_bytes[2]: X2} - {_bytes[3]: X2} - {_bytes[4]: X2} - {_bytes[5]: X2} - ";
+			=> $"{_bytes[0]:X2}-{_bytes[1]:X2}-{_bytes[2]:X2}-{_bytes[3]:X2}-{_bytes[4]:X2}-{_bytes[5]:X2}";
 	}
 }
